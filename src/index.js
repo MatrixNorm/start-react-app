@@ -1,8 +1,9 @@
-import React from 'react';
-import ReactDOM from "react-dom";
+import React from "react";
+import { createRoot } from "react-dom/client";
 
-function Root() {
-  return <p>hi!</p>
+function RootComponent() {
+  return <p>hi!</p>;
 }
 
-ReactDOM.render(<Root />, document.getElementById("matrixnorm-react-app"));
+const root = createRoot(document.getElementById("matrixnorm-react-app"));
+root.render(<RootComponent />);
