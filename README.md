@@ -1,9 +1,8 @@
-npm init -y
 
-npm i react react-dom
+1. clone this repo
 
-npm i -D @babel/core @babel/preset-env @babel/preset-react
+2. delete .git folder
 
-npm i -D webpack webpack-cli webpack-dev-server
+3. set name and description in package.json to your liking
 
-npm i -D babel-loader html-webpack-plugin
+4. run `bash install_deps.sh` 
